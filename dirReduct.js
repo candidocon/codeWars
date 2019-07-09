@@ -85,5 +85,4 @@ console.log(
   ])
 );
 //, ['Brad', 'Juan']);
-//, [ 'Brad', 'Juan', 'Ariel', 'Julia', 'Michael', 'Alexander' ]);
 //, [ 'Brad','John','Josh','Juan','Ariel','Julia','Mikel','Pablo','George','Enrique','Gonzalo','Michael','Alexander' ])
