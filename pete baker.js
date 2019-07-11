@@ -9,3 +9,16 @@ let cake1 = cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, 
 let cake2 = cakes({ apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100 }, { sugar: 500, flour: 2000, milk: 2000 }); 
 
 console.log(cake1);
+console.log(cake2);
+
+function cakes(recipe, available) {
+    let cakes1 = [];
+    for (let rcpIngr in recipe) { 
+        if (recipe[rcpIngr] > available[rcpIngr] || !available[rcpIngr]) { 
+            return 0;
+        }
+        cakes1.push(Math.floor(available[rcpIngr] / recipe[rcpIngr]));
+    }
+    console.log(cakes1);
+    return  Math.min(...cakes1);
+  }
