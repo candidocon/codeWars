@@ -32,3 +32,5 @@ function dirReduc(arr) {
   } while (change);
   return arr;
 }
+
+//sloution
