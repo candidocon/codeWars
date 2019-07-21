@@ -33,7 +33,7 @@ function dirReduc(arr) {
   return arr;
 }
 
-//sloution
+//sloution best practice
 function dirReduc(plan) {
   var opposite = {
     NORTH: "SOUTH",
@@ -47,3 +47,5 @@ function dirReduc(plan) {
     return dirs;
   }, []);
 }
+
+//solution 2
