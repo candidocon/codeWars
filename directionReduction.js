@@ -1,3 +1,4 @@
+//My solution
 function dirReduc(arr) {
   let change = false;
   do {
