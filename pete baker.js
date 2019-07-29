@@ -21,4 +21,5 @@ function cakes(recipe, available) {
     }
     console.log(cakes1);
     return  Math.min(...cakes1);
-  }
+}
+  
