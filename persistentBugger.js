@@ -6,6 +6,7 @@ function persistence(num) {
     separateDigits.forEach(eachDigit => {
       num *= eachDigit;
     });
+    counter += 1;
   }
   return counter;
 }
