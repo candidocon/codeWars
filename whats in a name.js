@@ -18,3 +18,18 @@ console.log(nameInStr("Next to a lake", "chris")); // false)
 console.log(nameInStr("Under a sea", "chris")); // false)
 console.log(nameInStr("A crew that boards the ship", "chris")); // false)
 console.log(nameInStr("A live son", "Allison")); // false)
+
+function nameInStr(str, name) {
+  let nameCounter = 0;
+  let strCounter = 0;
+  let newStr = str.toLowerCase();
+  let newname = name.toLowerCase();
+  while (strCounter < newStr.length && nameCounter < newname.length) {
+    if (newStr[i] === newname[nameCounter]) {
+      possibleString.push(newStr[i]);
+      nameCounter++;
+    }
+    strCounter++;
+  }
+  return possibleString.join("") === newname;
+}
