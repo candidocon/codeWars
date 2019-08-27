@@ -2,9 +2,8 @@
 
 function nextVersion(version) {
   let newVersion = version.split(".");
-  for (let i = newVersion.length - 1; i >= 0; i++) {
+  for (let i = newVersion.length - 1; i >= 0; i--) {
     newVersion[i]++;
-    console.log(newVersion);
     if (newVersion[i] > 9 && i > 0) {
       newVersion[i] = 0;
     } else {
