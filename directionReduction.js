@@ -49,7 +49,7 @@ function dirReduc(plan) {
   }, []);
 }
 
-//solution most clever
+//solution most clever.
 function dirReduc(arr) {
   var str = arr.join(""),
     pattern = /NORTHSOUTH|EASTWEST|SOUTHNORTH|WESTEAST/;
