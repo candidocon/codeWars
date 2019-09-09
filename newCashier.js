@@ -21,6 +21,13 @@ function getOrder(input) {
       currWord = "";
     }
   }
+  output.sort((a, b) => {
+    let aPlace = menu.indexOf(a);
+    let bPlace = menu.indexOf(b);
+    if (aPlace < bPlace) return -1;
+    if (aPlace > bPlace) return 1;
+    if (aPlace === bPlace) return 0;
+  });
   return output.join(" ");
 }
 
