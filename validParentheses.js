@@ -20,7 +20,7 @@ function validParentheses(parens) {
   return newParens.length === 0 ? true : false;
 }
 
-//best Answer:
+//best Answer :
 
 // I had something that was smaller and looked cooler, but
 // this is how you'd want to write an actual parser.
