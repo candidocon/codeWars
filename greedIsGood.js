@@ -1,3 +1,5 @@
 //https://www.codewars.com/kata/greed-is-good
 
-function score(dice) {}
+function score(dice) {
+  //code goes here
+}
