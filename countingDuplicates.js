@@ -13,7 +13,7 @@ Example
 "ABBA" -> 2 # 'A' and 'B' each occur twice */
 
 function duplicateCount(text) {
-  //.
+  //..
 }
 
 console.log(duplicateCount("")); //, 0);
