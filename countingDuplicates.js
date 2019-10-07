@@ -15,6 +15,7 @@ Example
 function duplicateCount(text) {
   //...;
   let newText = text;
+  let Duplicates = 0;
 }
 
 console.log(duplicateCount("")); //, 0);
