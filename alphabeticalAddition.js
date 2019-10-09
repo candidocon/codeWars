@@ -5,12 +5,20 @@ function addLetters(...letters) {
   if (letters.length === 0) {
     return "z";
   }
+  let lettersStrng = letters.join("");
   let addition = 0;
   for (let i = 0; i < letters.length; i++) {
-    addition += letters.charCodeAt(i) - 96;
+    addition += lettersStrng.charCodeAt(i) - 96;
     if (addition > 26) {
       addition -= 26;
     }
   }
   return String.fromCharCode(addition + 96);
 }
+
+function addLetters(...letters) {
+  return String.fromCharCode(
+    ((letters.reduce((a, b) => a + b.charCodeAt(0) - 96, 0) + 25) % 26) + 97
+  );
+}
+s;
