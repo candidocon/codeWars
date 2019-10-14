@@ -11,7 +11,7 @@ function addLetters(...letters) {
     addition += lettersStrng.charCodeAt(i) - 96;
     if (addition > 26) {
       addition -= 26;
-      //addition .
+      //addition ...
     }
   }
   return String.fromCharCode(addition + 96);
