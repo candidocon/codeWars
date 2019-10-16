@@ -2,6 +2,7 @@
 //Alphabetical addition
 
 function addLetters(...letters) {
+  //if the input is empty
   if (letters.length === 0) {
     return "z";
   }
