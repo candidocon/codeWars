@@ -14,6 +14,8 @@ Example
 
 function duplicateCount(text) {
   //...;
+  //.
+
   //c
   let newText = text;
   let Duplicates = 0;
