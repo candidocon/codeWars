@@ -1,6 +1,7 @@
 //https://www.codewars.com/kata/pyramid-array/train/javascript
 //Pyramid Array
 
+//Time: 1246ms
 function pyramid(n) {
   // your code here
   let response = [];
