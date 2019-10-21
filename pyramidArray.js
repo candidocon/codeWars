@@ -14,3 +14,39 @@ function pyramid(n) {
   }
   return response;
 }
+//Time: 1247ms
+function pyramid(n) {
+  // your code here
+  let response = [];
+  for (let i = 1; i <= n; i++) {
+    let inner = new Array(i);
+    inner.fill(1);
+    response.push(inner);
+  }
+  return response;
+}
+//Time: 1196ms
+function pyramid(n) {
+  // your code here
+  let response = [];
+
+  for (let i = 1; i <= n; i++) {
+    let inner = new Array(i);
+    inner.fill(1);
+    response.push(inner);
+  }
+  return response;
+}
+
+//Time: 1351ms
+function pyramid(n) {
+  // your code here
+  let response = [];
+  let inner = [1];
+
+  for (let i = 0; i < n; i++) {
+    response.push(inner.slice());
+    inner.push(1);
+  }
+  return response;
+}
