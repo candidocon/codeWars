@@ -38,7 +38,7 @@ function pyramid(n) {
   return response;
 }
 
-//Time: 1351ms
+//Time: 1147ms
 function pyramid(n) {
   // your code here
   let response = [];
@@ -49,4 +49,13 @@ function pyramid(n) {
     inner.push(1);
   }
   return response;
+}
+
+//most clever
+function pyramid(n) {
+  const res = [];
+  for (let i = 0; i < n; i++) {
+    res.push([...Array(i + 1)].fill(1));
+  }
+  return res;
 }
