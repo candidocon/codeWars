@@ -13,7 +13,7 @@ function nextVersion(version) {
   return newVersion.join(".");
 }
 
-//testscode
+//test code
 console.log(nextVersion("1.2.3")); // , "1.2.4")
 console.log(nextVersion("0.9.9")); //,"1.0.0")
 console.log(nextVersion("1")); //,"2")
