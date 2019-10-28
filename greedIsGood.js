@@ -2,4 +2,5 @@
 
 function score(dice) {
   //code goes here
+  //code
 }
