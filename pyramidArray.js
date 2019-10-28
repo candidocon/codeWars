@@ -1,6 +1,7 @@
 //https://www.codewars.com/kata/pyramid-array/train/javascript
 //Pyramid Array
 
+//attempt 1
 //Time: 1246ms
 function pyramid(n) {
   // your code here
@@ -14,6 +15,7 @@ function pyramid(n) {
   }
   return response;
 }
+//
 //Time: 1247ms
 function pyramid(n) {
   // your code here
