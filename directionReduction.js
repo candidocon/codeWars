@@ -34,7 +34,7 @@ function dirReduc(arr) {
   return arr;
 }
 
-//solution best practice 1
+// best practice solution.
 function dirReduc(plan) {
   var opposite = {
     NORTH: "SOUTH",
@@ -49,7 +49,7 @@ function dirReduc(plan) {
   }, []);
 }
 
-//solution most clever.
+// most clever solution.
 function dirReduc(arr) {
   var str = arr.join(""),
     pattern = /NORTHSOUTH|EASTWEST|SOUTHNORTH|WESTEAST/;
