@@ -2,5 +2,5 @@
 //https://www.codewars.com/kata/5827e2efc983ca6f230000e0
 
 function pattern(rows, columns, str) {
-  //coding and coding..
+  //code goes here
 }
