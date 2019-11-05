@@ -2,7 +2,7 @@
 //https://www.codewars.com/kata/58af1bb7ac7e31b192000020
 
 //!N consecutive not 3 consecutive!
-//given n (where n >= 1) find n consecutive odd numbers whose sum is exactly the cube of n.
+//given n (where n >= 1) find n consecutive odd numbers whose sum is exactly the cube of n
 function findSummands(n) {
   let cube = n * n * n;
   for (let i = 0; i < cube; i++) {
