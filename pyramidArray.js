@@ -54,7 +54,6 @@ function pyramid(n) {
 }
 
 //most clever answer
-//most clever answer
 function pyramid(n) {
   const res = [];
   for (let i = 0; i < n; i++) {
