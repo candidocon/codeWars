@@ -53,7 +53,7 @@ function pyramid(n) {
   return response;
 }
 
-//most clever answer
+//most cleverest answer
 function pyramid(n) {
   const res = [];
   for (let i = 0; i < n; i++) {
